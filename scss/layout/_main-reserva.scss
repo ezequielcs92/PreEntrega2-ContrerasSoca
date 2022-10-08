@@ -1,0 +1,68 @@
+h2{
+    margin-top: 3%;
+}
+.caja-rsv{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container-reserva{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    .bloque1-rsv{
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        label{
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 30px;
+        }
+        input{
+            font-size: 18px;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        select{
+            font-size: 18px;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+    }
+
+    .bloque2-rsv{
+        @extend .bloque1-rsv;
+    }
+}
+
+.btn-enviar-rsv{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #004e64;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+    &:hover{
+        background-color: #25A18E;
+        color: white;
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+}
+
+.container-reserva-movil{
+    display: none;
+}

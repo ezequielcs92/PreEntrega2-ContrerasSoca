@@ -1,0 +1,98 @@
+/*HEADER*/
+header{
+    display: flex;
+    border: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: black;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #F2F2F2;
+    .logo{
+        width: 15%;
+    }
+    img{
+        height: 100px;
+    object-fit: contain;
+    margin: 2px;
+    width: 100%;
+    }
+    nav{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            width: 100%;
+            a{
+                text-decoration: none;
+                color: #004e64;
+                font-size: 18px;
+                font-weight: 700;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            a:hover{
+                transition: 0.5s;
+                color: #25A18E;
+            }
+            a:active{
+                color: #25A18E;
+            }
+            
+        }
+    }
+
+}
+/*BOTON RESERVA*/
+.btn{
+    display: flex;
+    margin-bottom: 10px;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+}
+.btnreserva{
+    display: flex;
+    background-color: #25A18E;
+    padding: 10px 15px;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    align-items: center;
+    width: fit-content;
+    &.btnreserva:hover{
+        display: flex;
+        transition: 0.5s;
+        transform: scale(1.2);
+        background-color: #004e64;
+        padding: 10px 15px;
+        justify-content: center;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        align-items: center;
+        width: fit-content;
+    }
+    &:active{
+        display: flex;
+        background-color: #004e64;
+        padding: 10px 15px;
+        justify-content: center;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        align-items: center;
+        width: fit-content;
+    }
+}
+

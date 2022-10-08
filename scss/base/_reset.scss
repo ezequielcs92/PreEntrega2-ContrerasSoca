@@ -1,0 +1,11 @@
+*{
+    @include reset;
+}
+
+body{
+    @include body;
+}
+
+h1, h2{
+    @include h1;
+}

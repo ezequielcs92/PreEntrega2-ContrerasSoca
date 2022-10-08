@@ -1,0 +1,51 @@
+/*Nuestras Actividades*/
+.caja-size{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    img{
+        width: 50%;
+        height: 350px;
+        object-fit: cover;
+        text-align: right;
+    }
+}
+.titulo-parrafo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    p{
+        text-align:center;
+    }
+}
+
+.torneos-clases{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 45%;
+        h2{
+            text-align: left;
+        }
+    }
+    #revoleos{
+        text-align: right;
+    }
+}
