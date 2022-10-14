@@ -62,6 +62,7 @@
     .form-contacto{
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
         .form-nombre{
             width: 100%;
         }
@@ -97,8 +98,4 @@
             color: white;
         }
     }
-}
-
-.form-contacto{
-    width: 100%;
 }

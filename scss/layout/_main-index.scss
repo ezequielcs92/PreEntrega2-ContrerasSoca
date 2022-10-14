@@ -19,7 +19,7 @@
     }
     .btn{
         display: flex;
-        background-color: #004e64;
+        background-color: $background-btn-blue;
         width: fit-content;
         a{
             text-decoration: none;
@@ -32,7 +32,7 @@
         display: flex;
         transition: 0.5s;
         transform: scale(1.2);
-        background-color: #25A18E;
+        background-color: $background-btn;
         width: fit-content;
     }
 }
@@ -73,7 +73,7 @@
                 color: white;
                 text-decoration: none;
                 font-weight: 600;
-                background-color: #004e64;
+                background-color: $background-btn-blue;
                 width: fit-content;
                 padding: 10px 15px;
                 margin-top: 15px;
@@ -88,7 +88,7 @@
                 font-weight: 600;
                 transition: 0.5s;
                 transform: scale(1.2);
-                background-color: #25A18E;
+                background-color: $background-btn;
                 width: fit-content;
                 padding: 10px 15px;
                 margin-top: 15px;
@@ -124,13 +124,13 @@
         color: white;
         text-decoration: none;
         font-weight: 600;
-        background-color: #004e64;
+        background-color: $background-btn-blue;
         padding: 10px 15px;
         margin-top: 15px;
     }
     a:hover{
         transition: 0.5s;
-        background-color: #25A18E;
+        background-color: $background-btn;
     }
 }
 
@@ -221,14 +221,14 @@
         color: white;
         text-decoration: none;
         font-weight: 600;
-        background-color: #004e64;
+        background-color: $background-btn-blue;
         width: fit-content;
         padding: 10px 15px;
         margin-top: 15px;
         &:hover{
             transition: 0.5s;
             transform: scale(1.2);
-            background-color: #25A18E;
+            background-color: $background-btn;
         }
     }
 }
